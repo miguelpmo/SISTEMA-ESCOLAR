@@ -1,0 +1,12 @@
+{
+  "name": "sistema-escolar",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1"
+  },
+  "scripts": {
+    "check": "node --check js/app.js && node --check js/supabase.js && node --check api/config.js && node --check api/_supabaseAdmin.js && node --check api/cadastrar-usuario.js && node --check api/login-aluno.js"
+  }
+}
